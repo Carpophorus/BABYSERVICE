@@ -1,0 +1,48 @@
+.hidden {
+  visibility: hidden;
+}
+
+.gone {
+  display: none;
+}
+
+/*body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-size: 2.5vh;
+}*/
+
+a, a:hover, a:focus, a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*button, button:hover, button:focus {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  background-color: transparent;
+  padding: 0;
+}*/
+
+/*select, select:hover, select:focus {
+  border: 0;
+  outline: 0;
+}*/
+
+/**/
+
+@media (min-width: 1px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
